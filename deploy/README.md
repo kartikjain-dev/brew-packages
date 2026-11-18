@@ -14,7 +14,7 @@ deploy/
 ## For someone installing one app
 
 ```bash
-git clone https://github.com/bufferbrewlabs/BrewWire && cd BrewWire
+git clone https://github.com/kartikjain-dev/Kurio && cd Kurio
 cp .env.example .env
 deploy/supabase/gen-env.sh >> .env       # database password, JWT secret, keys
 docker compose --profile supabase up -d
