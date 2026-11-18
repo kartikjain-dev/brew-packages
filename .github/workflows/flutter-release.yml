@@ -5,7 +5,7 @@ name: Flutter release (reusable)
 #
 #   jobs:
 #     release:
-#       uses: bufferbrewlabs/brew-packages/.github/workflows/flutter-release.yml@<tag>
+#       uses: kartikjain-dev/brew-packages/.github/workflows/flutter-release.yml@<tag>
 #       with:
 #         app: brewwire
 #         platforms: android,web,windows
